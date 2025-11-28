@@ -1,0 +1,993 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "Town": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Allowable Maps"
+    },
+    "Forest": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Allowable Maps"
+    },
+    "Mountain": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "Beach": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "BusStop": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "Railroad": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "Backwoods": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "SecretWoods": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "Desert": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "IslandFarm": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "IslandSouth": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "IslandNorth": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "IslandEast": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "IslandSouthEast": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "Summit": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Allowable Maps"
+    },
+    "MapsArePlantable": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Map Features"
+    },
+    "GrassSpreadOnDirt": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Map Features"
+    }
+  },
+  "Changes": [
+/*Town*/
+    {
+      "LogName": "Town Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Town": true
+      }
+    },
+    {
+      "LogName": "Town Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Town",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Town": true
+      }
+    },
+    {
+      "LogName": "Town Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Town"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Town": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Town Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Town": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Forest*/
+    {
+      "LogName": "Forest Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Forest": true
+      }
+    },
+    {
+      "LogName": "Forest Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Forest",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Forest": true
+      }
+    },
+    {
+      "LogName": "Forest Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Forest"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Forest": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Forest Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Forest": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Mountain*/
+    {
+      "LogName": "Mountain Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Mountain",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Mountain": true
+      }
+    },
+    {
+      "LogName": "Mountain Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Mountain",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Mountain": true
+      }
+    },
+    {
+      "LogName": "Mountain Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Mountain"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Mountain": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Mountain Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Mountain",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Mountain": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Beach*/
+    {
+      "LogName": "Beach Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Beach": true
+      }
+    },
+    {
+      "LogName": "Beach Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Beach",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Beach": true
+      }
+    },
+    {
+      "LogName": "Beach Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Beach"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Beach": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Beach Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Beach": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*BusStop*/
+    {
+      "LogName": "Bus Stop Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "BusStop": true
+      }
+    },
+    {
+      "LogName": "Bus Stop Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "BusStop",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "BusStop": true
+      }
+    },
+    {
+      "LogName": "Bus Stop Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "BusStop"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "BusStop": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Bus Stop Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "BusStop": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Railroad*/
+    {
+      "LogName": "Railroad Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Railroad": true
+      }
+    },
+    {
+      "LogName": "Railroad Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Railroad",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Railroad": true
+      }
+    },
+    {
+      "LogName": "Railroad Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Railroad"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Railroad": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Railroad Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Railroad",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Railroad": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Backwoods*/
+    {
+      "LogName": "Backwoods Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Backwoods": true
+      }
+    },
+    {
+      "LogName": "Backwoods Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Backwoods",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Backwoods": true
+      }
+    },
+    {
+      "LogName": "Backwoods Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Backwoods"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Backwoods": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Backwoods Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Backwoods": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Secret Woods*/
+    {
+      "LogName": "Secret Woods Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "SecretWoods": true
+      }
+    },
+    {
+      "LogName": "Secret Woods Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Woods",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "SecretWoods": true
+      }
+    },
+    {
+      "LogName": "Secret Woods Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Woods"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "SecretWoods": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Secret Woods Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "SecretWoods": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Desert*/
+    {
+      "LogName": "Desert Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Desert",
+      "MapProperties": {
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Desert": true
+      }
+    },
+    {
+      "LogName": "Desert Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Desert",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Desert": true
+      }
+    },
+    {
+      "LogName": "Desert Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Desert"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Desert": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Desert Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Desert",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Desert": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Ginger Island Farm*/
+    {
+      "LogName": "Ginger Island Farm Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Island_W",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any IslandWest",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "IslandFarm": true
+      }
+    },
+    {
+      "LogName": "Ginger Island Farm Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandWest",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "IslandFarm": true
+      }
+    },
+    {
+      "LogName": "Ginger Island Farm Display Name",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandWest"
+      ],
+      "Entries": {
+        "DisplayName": "Ginger Island Farm"
+      },
+      "When": {
+        "IslandFarm": true
+      }
+    },
+    {
+      "LogName": "Ginger Island Farm Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandWest"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "IslandFarm": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Ginger Island Farm Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Island_W",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "IslandFarm": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Ginger Island South*/
+    {
+      "LogName": "Ginger Island South Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Island_S",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any IslandSouth",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "IslandSouth": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandSouth",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "IslandSouth": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South Display Name",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandSouth"
+      ],
+      "Entries": {
+        "DisplayName": "Ginger Island South"
+      },
+      "When": {
+        "IslandSouth": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandSouth"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "IslandSouth": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Island_S",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "IslandSouth": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Ginger Island North*/
+    {
+      "LogName": "Ginger Island North Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Island_N",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any IslandNorth",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "IslandNorth": true
+      }
+    },
+    {
+      "LogName": "Ginger Island North Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandNorth",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "IslandNorth": true
+      }
+    },
+    {
+      "LogName": "Ginger Island North Display Name",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandNorth"
+      ],
+      "Entries": {
+        "DisplayName": "Ginger Island North"
+      },
+      "When": {
+        "IslandNorth": true
+      }
+    },
+    {
+      "LogName": "Ginger Island North Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandNorth"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "IslandNorth": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Ginger Island North Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Island_N",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "IslandNorth": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Ginger Island East*/
+    {
+      "LogName": "Ginger Island East Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Island_E",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any IslandEast",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "IslandEast": true
+      }
+    },
+    {
+      "LogName": "Ginger Island East Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandEast",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "IslandEast": true
+      }
+    },
+    {
+      "LogName": "Ginger Island East Display Name",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandEast"
+      ],
+      "Entries": {
+        "DisplayName": "Ginger Island East"
+      },
+      "When": {
+        "IslandEast": true
+      }
+    },
+    {
+      "LogName": "Ginger Island East Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandEast"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "IslandEast": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Ginger Island East Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Island_E",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "IslandEast": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Ginger Island South East*/
+    {
+      "LogName": "Ginger Island South East Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Island_SE",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any IslandSouthEast",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "IslandSouthEast": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South East Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandSouthEast",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "IslandSouthEast": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South East Display Name",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandSouthEast"
+      ],
+      "Entries": {
+        "DisplayName": "Ginger Island South East"
+      },
+      "When": {
+        "IslandSouthEast": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South East Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandSouthEast"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "IslandSouthEast": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Ginger Island South East Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Island_SE",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "IslandSouthEast": true,
+        "GrassSpreadOnDirt": true
+      }
+    },
+/*Summit*/
+    {
+      "LogName": "Summit Build Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Summit",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any Summit",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Summit": true
+      }
+    },
+    {
+      "LogName": "Summit Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Summit",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "Summit": true
+      }
+    },
+    {
+      "LogName": "Summit Locations Data Plantable",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Summit"
+      ],
+      "Entries": {
+        "CanPlantHere": true
+      },
+      "When": {
+        "Summit": true,
+        "MapsArePlantable": true
+      }
+    },
+    {
+      "LogName": "Summit Map Properties Grass",
+      "Action": "EditMap",
+      "Target": "Maps/Summit",
+      "MapProperties": {
+        "EnableGrassSpread": "T"
+      },
+      "When": {
+        "Summit": true,
+        "GrassSpreadOnDirt": true
+      }
+    }
+  ]
+}

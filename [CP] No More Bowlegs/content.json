@@ -1,0 +1,64 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Enable": {
+			"AllowValues": "Abigail, Caroline, Elliott, Harvey, Jodi, Leah, Maru",
+			"Default": "Abigail, Caroline, Elliott, Harvey, Jodi, Leah, Maru",
+			"AllowMultiple": true,
+			"AllowBlank": true,
+			"Description": "Tick which characters you'd like this mod to edit."
+		}
+	},
+
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "assets/Abigail/content.json",
+			"When": {
+				"Enable": "Abigail"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Caroline/content.json",
+			"When": {
+				"Enable": "Caroline"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Elliott/content.json",
+			"When": {
+				"Enable": "Elliott"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Harvey/content.json",
+			"When": {
+				"Enable": "Harvey"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Jodi/content.json",
+			"When": {
+				"Enable": "Jodi"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Leah/content.json",
+			"When": {
+				"Enable": "Leah"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/Maru/content.json",
+			"When": {
+				"Enable": "Maru"
+			}
+		}
+	]
+}

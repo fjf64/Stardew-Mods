@@ -1,0 +1,12 @@
+{
+	"Name": "Rose's Dream Crops",
+	"Author": "Roseloves109",
+	"Description": "Adds Seeds allow you to Grow ores and Gems",
+	"Version": "1.2.0",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "Roseloves109.DreamCrops",
+	"UpdateKeys": [ "Nexus:28289" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

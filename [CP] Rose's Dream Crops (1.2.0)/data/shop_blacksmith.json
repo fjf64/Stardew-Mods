@@ -1,0 +1,130 @@
+{	
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Blacksmith",
+				"Items"
+			],
+			"Entries": {
+				"Roseloves109_CopperOreSeeds": {
+					"Id": "Roseloves109_CopperOreSeeds",
+					"ItemId": "Roseloves109_CopperOreSeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_IronOreSeeds": {
+					"Id": "Roseloves109_IronOreSeeds",
+					"ItemId": "Roseloves109_IronOreSeeds",
+					"IgnoreShopPriceModifiers": true,				
+				},
+				"Roseloves109_GoldOreSeeds": {
+					"Id": "Roseloves109_GoldOreSeeds",
+					"ItemId": "Roseloves109_GoldOreSeeds",
+					"IgnoreShopPriceModifiers": true,					
+				},
+				"Roseloves109_IridiumOreSeeds": {
+					"Id": "Roseloves109_IridiumOreSeeds",
+					"ItemId": "Roseloves109_IridiumOreSeeds",
+					"IgnoreShopPriceModifiers": true,	
+				},
+				"Roseloves109_RadioactiveOreSeeds": {
+					"Id": "Roseloves109_RadioactiveOreSeeds",
+					"ItemId": "Roseloves109_RadioactiveOreSeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_CoalSeeds": {
+					"Id": "Roseloves109_CoalSeeds",
+					"ItemId": "Roseloves109_CoalSeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_StoneSeeds": {
+					"Id": "Roseloves109_StoneSeeds",
+					"ItemId": "Roseloves109_StoneSeeds",
+					"IgnoreShopPriceModifiers": true,
+			}
+		}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": ["Blacksmith", "Items"],
+      "When": {
+        "Enable Gemstone Crops": true
+      },
+      "Entries": {
+				"Roseloves109_QuartzSeeds": {
+					"Id": "Roseloves109_QuartzSeeds",
+					"ItemId": "Roseloves109_QuartzSeeds",
+					"IgnoreShopPriceModifiers": true,	
+				},
+				"Roseloves109_FireQuartzSeeds": {
+					"Id": "Roseloves109_FireQuartzSeeds",
+					"ItemId": "Roseloves109_FireQuartzSeeds",
+					"IgnoreShopPriceModifiers": true,				
+				},
+				"Roseloves109_EarthCrystalSeeds": {
+					"Id": "Roseloves109_EarthCrystalSeeds",
+					"ItemId": "Roseloves109_EarthCrystalSeeds",
+					"IgnoreShopPriceModifiers": true,			
+				},
+				"Roseloves109_FrozenTearSeeds": {
+					"Id": "Roseloves109_FrozenTearSeeds",
+					"ItemId": "Roseloves109_FrozenTearSeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_AmethystSeeds": {
+					"Id": "Roseloves109_AmethystSeeds",
+					"ItemId": "Roseloves109_AmethystSeeds",
+					"IgnoreShopPriceModifiers": true,		
+				},
+				"Roseloves109_TopazSeeds": {
+					"Id": "Roseloves109_TopazSeeds",
+					"ItemId": "Roseloves109_TopazSeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_AquamarineSeeeds": {
+					"Id": "Roseloves109_AquamarineSeeeds",
+					"ItemId": "Roseloves109_AquamarineSeeeds",
+					"IgnoreShopPriceModifiers": true,		
+				},
+				"Roseloves109_RubySeeeds": {
+					"Id": "Roseloves109_RubySeeeds",
+					"ItemId": "Roseloves109_RubySeeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_EmeraldSeeeds": {
+					"Id": "Roseloves109_EmeraldSeeeds",
+					"ItemId": "Roseloves109_EmeraldSeeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_JadeSeeeds": {
+					"Id": "Roseloves109_JadeSeeeds",
+					"ItemId": "Roseloves109_JadeSeeeds",
+					"IgnoreShopPriceModifiers": true,	
+				},
+				"Roseloves109_DiamondSeeeds": {
+					"Id": "Roseloves109_DiamondSeeeds",
+					"ItemId": "Roseloves109_DiamondSeeeds",
+					"IgnoreShopPriceModifiers": true,
+				},
+				"Roseloves109_CinderShardSeeds": {
+					"Id": "Roseloves109_CinderShardSeeds",
+					"ItemId": "Roseloves109_CinderShardSeeds",
+					"IgnoreShopPriceModifiers": true,	
+				},
+				"Roseloves109_PrismaticShardSeeds": {
+					"Id": "Roseloves109_PrismaticShardSeeds",
+					"ItemId": "Roseloves109_PrismaticShardSeeds",
+					"IgnoreShopPriceModifiers": true,		
+        }
+      }
+    }
+  ]
+}
+					
+		
+							
+						
+		
+					

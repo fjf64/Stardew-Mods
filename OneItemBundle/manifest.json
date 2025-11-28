@@ -1,0 +1,20 @@
+  {
+    "Name": "One Item Bundle",
+    "Author": "Tech Rifle",
+    "Version": "1.0.0",
+    "Description": "A mod that simplifies Community Centre bundles by requiring only one item.",
+    "UniqueID": "techrifle.OneItemBundle",
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+      {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "IsRequired": true
+      }
+    ],
+    "UpdateKeys": [
+      "Nexus:27192"
+    ]
+  }
+  

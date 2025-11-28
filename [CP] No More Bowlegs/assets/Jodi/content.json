@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jodi, Characters/Jodi_Winter",
+			"FromFile": "assets/Jodi/{{TargetWithoutPath}}.png"
+		}
+	]
+}

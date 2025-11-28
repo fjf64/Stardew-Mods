@@ -1,0 +1,12 @@
+{
+  "Name": "Krobus drlls golden walnuts!",
+  "Author": "Lofi2musika",
+  "Version": "1.0.0",
+  "Description": "krobus sells golden walnuts.",
+  "UniqueID": "Lofi2musika.goldenwalnuts",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
+}

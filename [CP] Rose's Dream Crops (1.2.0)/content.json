@@ -1,0 +1,100 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "Enable Gemstone Crops": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Adds Seeds that Allow You to Grow Gemstones."
+    },
+    "Enable Rare Item Crops": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Adds Seeds that Allow You to Grow Rare Items."
+    }
+  },
+  "DynamicTokens": [
+    /*crop ExtraHarvestChance values for later testing*/
+    {
+      "Name": "10Percent",
+      "Value": "0.1"
+    },
+    {
+      "Name": "25Percent",
+      "Value": "0.2"
+    },
+    {
+      "Name": "50Percent",
+      "Value": "0.33"
+    },
+    {
+      "Name": "75Percent",
+      "Value": "0.33"
+    },
+    {
+      "Name": "90Percent",
+      "Value": "0.36"
+    }
+  ],
+  "Changes": [
+    /* add item + crop images*/
+    {
+      "Action": "Load","Target":
+	"Mods/Roseloves109.DreamCrops/assets/Copper_Ore_Seeds,
+	  ModsRoseloves109.DreamCrops/assets/Iron_Ore_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Gold_Ore_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Iridium_Ore_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Radioactive_Ore_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Coal_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Stone_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Stone_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Quartz_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Fire_Quartz_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Earth_Crystal_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Frozen_Tear_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Amethyst_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Topaz_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Aquamarine_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Ruby_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Emerald_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Jade_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Diamond_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Cinder_Shard_Seeds,	
+	  Mods/Roseloves109.DreamCrops/assets/Prismatic_Shard_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Pearl_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Gold_Pumpkin_Seeds,	
+	  Mods/Roseloves109.DreamCrops/assets/Dragon_Tooth_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Galaxy_Soul_Seeds,
+	  Mods/Roseloves109.DreamCrops/assets/Copper_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Iron_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Gold_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Iridium_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Radioactive_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Coal_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Quartz_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Fire_Quartz_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Earth_Crystal_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Frozen_Tear_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Topaz_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Amethyst_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Aquamarine_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Ruby_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Emerald_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Jade_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Diamond_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Cinder_Shard_Crop,		
+	  Mods/Roseloves109.DreamCrops/assets/Prismatic_Shard_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Pearl_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Golden_Pumpkin_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Dragon_Tooth_Crop,
+	  Mods/Roseloves109.DreamCrops/assets/Galaxy_Soul_Crop",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+    /* add subfiles*/,
+    {
+      "Action": "Include",
+      "FromFile": "data/objects.json, data/crops.json, data/shop_blacksmith.json, data/shop_ShadowShop.json"	  
+	},
+    ]
+}		
+			
+		  

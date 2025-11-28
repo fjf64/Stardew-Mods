@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Leah, Characters/Leah_Winter",
+			"FromFile": "assets/Leah/{{TargetWithoutPath}}.png"
+		}
+	]
+}

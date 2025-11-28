@@ -1,0 +1,64 @@
+{
+
+"config.Enable Gemstone Crops.name": "Enable Gemstone Crops",
+"config.Enable Gemstone Crops.description": "Adds Seeds that Allow You to Grow Gemstones.",
+"config.Enable Rare Item Crops.name": "Enable Rare Item Crops",
+"config.Enable Rare Item Crops.description": "Adds Seeds that Allow You to Grow Rare Items.",
+
+//Ores
+"Entries.DisplayName": "Copper Ore Seeds",
+"Entries.Description": "Magical Seeds allow you to grow Copper ore, takes 5 days to Grow and continues to produce after first harvest",
+"Roseloves109_IronOreSeeds.DisplayName": "Iron Ore Seeds",
+"Roseloves109_IronOreSeeds.Description": "Magical Seeds allow you to grow Iron ore, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_GoldOreSeeds.DisplayName": "Gold Ore Seeds",
+"Roseloves109_GoldOreSeeds.Description": "Magical Seeds allow you to grow Gold ore, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_IridiumOreSeeds.DisplayName": "Iridium Ore Seeds",
+"Roseloves109_IridiumOreSeeds.Description": "Magical Seeds allow you to grow Iridium ore, takes 14 days to grow and continues to produce after first harvest",
+"Roseloves109_RadioactiveOreSeeds.DisplayName": "Radioactive Ore Seeds",
+"Roseloves109_RadioactiveOreSeeds.Description": "Magical Seeds allow you to grow Radioactive ore, takes 12 days to grow and continues to produce after first harvest",
+"Roseloves109_CoalSeeds.DisplayName": "Coal Seeds",
+"Roseloves109_CoalSeeds.Description": "Magical Seeds allow you to grow Coal, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_StoneSeeds.DisplayName": "Stone Seeds",
+"Roseloves109_StoneSeeds.Description": "Magical Seeds allow you to grow Stone, takes 7 days to Grow and continues to produce after first harvest",
+
+//Forge Gems
+"Roseloves109_QuartzSeeds.DisplayName": "Quartz Seeds",
+"Roseloves109_QuartzSeeds.Description": "Magical Seeds allow you to grow Quartz, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_FireQuartzSeeds.DisplayName": "Fire Quartz Seeds",
+"Roseloves109_FireQuartzSeeds.Description": "Magical Seeds allow you to grow Fire Quartz, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_EarthCrystalSeeds.DisplayName": "Earth Crystal Seeds",
+"Roseloves109_EarthCrystalSeeds.Description": "Magical Seeds allow you to grow Earth Crystals, takes 7 days to grow and continues to produce after first harvest ",
+"Roseloves109_FrozenTearSeeds.DisplayName": "Frozen Tear Seeds",
+"Roseloves109_FrozenTearSeeds.Description": "Magical Seeds allow you to grow Frozen Tears, takes 7 days to grow and continues to produce after first harvest",
+
+//Gems
+"Roseloves109_AmethystSeeds.DisplayName": "Amethyst Seeds",
+"Roseloves109_AmethystSeeds.Description": "Magical Seeds allow you to grow Amethyst, takes 5 days to grow and continues to produce after first harvest",
+"Roseloves109_TopazSeeds.DisplayName": "Topaz Seeds",
+"Roseloves109_TopazSeeds.Description": "Magical Seeds allow you to grow Topaz, takes 5 days to grow and continues to produce after first harvest",
+"Roseloves109_AquamarineSeeeds.DisplayName": "Aquamarine Seeds",
+"Roseloves109_AquamarineSeeeds.Description": "Magical Seeds allow you to grow Aquamarines, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_RubySeeeds.DisplayName": "Ruby Seeds",
+"Roseloves109_RubySeeeds.Description": "Magical Seeds allow you to grow Rubys, takes 9 days to grow and continues to produce after first harvest",
+"Roseloves109_EmeraldSeeeds.DisplayName": "Emerald Seeds",
+"Roseloves109_EmeraldSeeeds.Description": "Magical Seeds allow you to grow Emeralds, takes 9 days to grow and continues to produce after first harvest",
+"Roseloves109_JadeSeeeds.DisplayName": "Jade Seeds",
+"Roseloves109_JadeSeeeds.Description": "Magical Seeds allow you to grow Jades, takes 7 days to grow and continues to produce after first harvest",
+"Roseloves109_DiamondSeeeds.DisplayName": "Diamond Seeds",
+"Roseloves109_DiamondSeeeds.Description": "Magical Seeds allow you to grow Diamonds, takes 12 days to grow and continues to produce after first harvest",
+"Roseloves109_CinderShardSeeds.DisplayName": "Cinder Shard Seeds",
+"Roseloves109_CinderShardSeeds.Description": "Magical Seeds allow you to grow Cinder Shards, takes 10 days to grow and continues to produce after first harvest",
+"Roseloves109_PrismaticShardSeeds.DisplayName": "Prismatic Shard Seeds",
+"Roseloves109_PrismaticShardSeeds.Description": "Magical Seeds allow you to grow Prismatic Shards, takes 16 days to grow and continues to produce after first harvest",
+
+//Rare Items 
+"Roseloves109_PearlSeeds.DisplayName": "Pearl Seeds",
+"Roseloves109_PearlSeeds.Description": "Magical Seeds grow rare Pearls in 15 days, producing continuously after the first harvest and are cherished as a beloved gift.",
+"Roseloves109_GoldPumpkinseeds.DisplayName": "Gold Pumpkin seeds",
+"Roseloves109_GoldPumpkinseeds.Description": "Magical Seeds grow rare Gold Pumpkins in 15 days, producing continuously after the first harvest and are cherished as a beloved gift.",
+"Roseloves109_DragonToothSeeds.DisplayName": "Dragon Tooth Seeds",
+"Roseloves109_DragonToothSeeds.Description": "Magical Seeds grow rare Dragon Teeth in 15 days, producing continuously after the first harvest and known for their many magical uses.",
+"Roseloves109_GalaxySoulSeeds.DisplayName": "Galaxy Soul Seeds",
+"Roseloves109_GalaxySoulSeeds.Description": "Magical Seeds grow the rare Galaxy Soul in 15 days, producing continuously after the first harvest and known for their many magical uses.",
+
+}

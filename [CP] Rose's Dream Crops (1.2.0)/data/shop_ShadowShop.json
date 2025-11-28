@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": ["ShadowShop", "Items"],
+      "When": {
+        "Enable Rare Item Crops": true
+      },
+      "Entries": {
+				"Roseloves109_PearlSeeds": {
+					"Id": "Roseloves109_PearlSeeds",
+					"ItemId": "Roseloves109_PearlSeeds",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 10,
+					"AvailableStockLimit": 1
+		
+			},
+				"Roseloves109_GoldPumpkinseeds": {
+					"Id": "Roseloves109_GoldPumpkinseeds",
+					"ItemId": "Roseloves109_GoldPumpkinseeds",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 10,
+					"AvailableStockLimit": 1
+			},
+				"Roseloves109_GalaxySoulSeeds": {
+					"Id": "Roseloves109_GalaxySoulSeeds",
+					"ItemId": "Roseloves109_GalaxySoulSeeds",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 10,
+					"AvailableStockLimit": 1
+			},
+				"Roseloves109_DragonToothSeeds": {
+					"Id": "Roseloves109_DragonToothSeeds",
+					"ItemId": "Roseloves109_DragonToothSeeds",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": 10,
+					"AvailableStockLimit": 1			
+        }
+      }
+    }
+  ]
+}	
+					
+		
+							
+	

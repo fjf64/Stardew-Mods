@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Caroline_Winter",
+			"FromFile": "assets/Caroline/{{TargetWithoutPath}}.png"
+		}
+	]
+}

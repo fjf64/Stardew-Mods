@@ -1,0 +1,13 @@
+	{
+	"Name": "[CP] No More Bowlegs",
+	"Author": "leroymilo",
+	"Version": "1.2",
+	"Description": "A mod to remove the space between the legs of some characters.",
+	"UniqueID": "leroymilo.NoMoreBowlegs",
+	"MinimumApiVersion": "4.0",
+	"MinimumGameVersion": "1.6",
+	"ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [ "Nexus:22823" ]
+}

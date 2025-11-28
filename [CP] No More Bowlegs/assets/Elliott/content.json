@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott, Characters/Elliott_Beach, Characters/Elliott_Winter",
+			"FromFile": "assets/Elliott/{{TargetWithoutPath}}.png"
+		}
+	]
+}

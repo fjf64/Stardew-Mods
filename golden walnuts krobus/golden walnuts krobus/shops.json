@@ -1,0 +1,19 @@
+{
+  "VanillaShops": [
+	{
+	"ShopName": "KrobusShop",
+	  "AddStockAboveVanilla": "True",
+      "ItemStocks": [
+		{
+			"ItemType": "Object",
+			"StockPrice": 1000,
+			"ItemNames": [
+			  "73"
+			]
+			  }
+		  ]
+	}
+	]
+}
+          
+          

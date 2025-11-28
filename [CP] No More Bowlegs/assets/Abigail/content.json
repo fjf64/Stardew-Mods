@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Abigail, Characters/Abigail_Winter",
+			"FromFile": "assets/Abigail/{{TargetWithoutPath}}.png"
+		}
+	]
+}

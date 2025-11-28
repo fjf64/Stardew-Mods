@@ -1,0 +1,19 @@
+{
+  "Town": "true",
+  "Forest": "true",
+  "Mountain": "false",
+  "Beach": "false",
+  "BusStop": "false",
+  "Railroad": "false",
+  "Backwoods": "false",
+  "SecretWoods": "false",
+  "Desert": "false",
+  "IslandFarm": "false",
+  "IslandSouth": "false",
+  "IslandNorth": "false",
+  "IslandEast": "false",
+  "IslandSouthEast": "false",
+  "Summit": "false",
+  "MapsArePlantable": "false",
+  "GrassSpreadOnDirt": "false"
+}

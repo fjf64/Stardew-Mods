@@ -1,0 +1,9 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Maru, Characters/Maru_Winter, Characters/Maru_Hospital",
+			"FromFile": "assets/Maru/{{TargetWithoutPath}}.png"
+		}
+	]
+}
